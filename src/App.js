@@ -5,7 +5,7 @@ function App() {
   const[num1, setNum1] = useState(0);
   const[num2, setNum2] = useState(0);
   const[num3, setNum3] = useState(0);
-  const[total, setTotal] = useState(0);
+  const[total, setTotal] = useState("");
   const[checkBox, setCheckBox] = useState(false);
   const[checkBox2, setCheckBox2] = useState(false);
   const[checkBox3, setCheckBox3] = useState(false);
@@ -22,7 +22,7 @@ function App() {
     } else if (num1 !== 0 && num3 !== 0) {
       setTotal (num1 + num3)
     } else {
-      alert("you need to input 2 value")
+      alert("you need to input 2 value, and value must not 0")
     }
   }
 
