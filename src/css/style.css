@@ -1,0 +1,46 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+    font-family: sans-serif;
+}
+h1 {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.calculator {
+    width: 300px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 5px 8px 8px -2px rgba (0, 0, 0, 0.61);
+    color:#4e8aa6;
+    text-align: center;
+}
+
+.numInput {
+    margin: 10px 0px 10px 0px;
+    width: 200px;
+    height: 30px;
+    font-size: 120%;
+}
+
+.checkBox {
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: #4e8aa6;
+}
+
+.operator {
+    font-size: 120%;
+    margin: 0px 20px 10px 20px;
+    width: 30px;
+    height: 30px;
+}
